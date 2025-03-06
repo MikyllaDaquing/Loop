@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Do-While Emulation</title>
+</head>
+<body>
+
+<p id="output"></p>
+
+<script>
+    let count = 0;
+    let output = document.getElementById("output");
+
+    do {
+        output.innerHTML += "No.: " + count + "<br>";
+        count++;
+    } while (count < 10); 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>While Loop</title>
+</head>
+<body>
+
+<p id="output">Numbers: <br></p>
+
+<script>
+    let count = 0;
+    let output = document.getElementById("output"); 
+
+    while (count < 10) {
+        output.innerHTML += count + "<br>"; 
+        count++;
+    }
+</script>
+
+<p id="numbers"></p>
+
+<script>
+    let i = 1;
+    let numbersOutput = document.getElementById("numbers");
+
+    while (i <= 10) {
+        numbersOutput.innerHTML += i + ""; 
+        i += 2; 
+    }
+</script>
+</body>
+</html>

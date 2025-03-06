@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nested While Loop in JavaScript</title>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+    let outerCount = 0;
+    let output = document.getElementById("output");
+
+    while (outerCount <= 3) {
+        let innerCount = 1;
+        output.innerHTML += "Loop1: " + outerCount + "<br>";
+
+    while (innerCount <= 2) {
+        output.innerHTML += "Loop2: " + innerCount + "<br>";
+        innerCount++;
+    }
+
+    output.innerHTML += "<br>"; 
+    outerCount++;
+    }
+</script>
+
+</body>
+</html>
+
